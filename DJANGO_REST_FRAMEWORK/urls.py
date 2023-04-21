@@ -28,5 +28,8 @@ urlpatterns = [
     # path('', include('Generic_Api_View_Model_Mixin.urls'))
 
     # 8.---------------View Set Class----------------
-    path('', include('View_Set_Class.urls'))
+    # path('', include('View_Set_Class.urls'))
+
+    # 9.--------------Model View Set Class--------------
+    path('', include('Model_View_Set_Class.urls'))
 ]

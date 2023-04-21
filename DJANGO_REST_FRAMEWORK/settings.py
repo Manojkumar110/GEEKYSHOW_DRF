@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'Class_Base_Api_View',
     'Generic_Api_View_Model_Mixin',
     'View_Set_Class',
+    'Model_View_Set_Class',
     
     
 ]
