@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'Generic_Api_View_Model_Mixin',
     'View_Set_Class',
     'Model_View_Set_Class',
+    'Basic_AuthenticationPermissions',
     
     
 ]
