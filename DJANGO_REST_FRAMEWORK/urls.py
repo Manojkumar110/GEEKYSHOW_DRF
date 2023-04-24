@@ -34,5 +34,8 @@ urlpatterns = [
     # path('', include('Model_View_Set_Class.urls'))
 
     # 10.----------Basic_AuthenticationPermissions-------
-    path('', include('Basic_AuthenticationPermissions.urls'))
+    # path('', include('Basic_AuthenticationPermissions.urls'))
+
+    # 11. ---------SessionBase_AuthenthicationPermission-----
+    path('', include('SessionBase_AuthenthicationPermission.urls'))
 ]

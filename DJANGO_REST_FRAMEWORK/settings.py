@@ -49,8 +49,10 @@ INSTALLED_APPS = [
     'View_Set_Class',
     'Model_View_Set_Class',
     'Basic_AuthenticationPermissions',
-    
-    
+    'SessionBase_AuthenthicationPermission',
+    'pypika',
+
+
 ]
 
 MIDDLEWARE = [
@@ -88,17 +90,21 @@ WSGI_APPLICATION = 'DJANGO_REST_FRAMEWORK.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-	'default': {
-		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'drfdb',
-		'USER': 'root',
-		'PASSWORD': 'pass123',
-		'HOST':'localhost',
-		'PORT':'3306',
-	}
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'drfdb',
+                'USER': 'root',
+                'PASSWORD': 'pass123',
+                'HOST': 'localhost',
+                'PORT': '3306',
+    }
 }
 
-
+# Authentication As A Globle
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': ['rest_framework.authentication.BasicAuthentication'],
+#     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated']
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
