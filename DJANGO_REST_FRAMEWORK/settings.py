@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'Model_View_Set_Class',
     'Basic_AuthenticationPermissions',
     'SessionBase_AuthenthicationPermission',
-    'pypika',
+    'Custome_Permission',
+    'FunctionBaseAuthPermission',
 
 
 ]
